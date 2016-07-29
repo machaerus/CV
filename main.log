@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.7.26)  26 JUL 2016 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.7.29)  30 JUL 2016 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,16 +996,16 @@ LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/l/sl' in size <10.95> not
 put line 72.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/l/it' will be
 (Font)              scaled to size 10.95pt on input line 72.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 11F1B200C4D972875EC4D067E21EE166;390.
+(rerunfilecheck)             Checksum: 07397D493E1840D092E180AB795E00F6;411.
  ) 
 Here is how much of TeX's memory you used:
  12816 strings out of 493054
@@ -1020,7 +1020,7 @@ mf-dist/fonts/type1/google/roboto/RobotoCondensed-Bold.pfb></usr/share/texmf-di
 st/fonts/type1/google/roboto/RobotoCondensed-Light.pfb></usr/share/texmf-dist/f
 onts/type1/google/roboto/RobotoCondensed-LightItalic.pfb></usr/share/texmf-dist
 /fonts/type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (1 page, 86233 bytes).
+Output written on main.pdf (1 page, 88943 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
