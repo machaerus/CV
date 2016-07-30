@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.7.29)  30 JUL 2016 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.7.29)  30 JUL 2016 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,7 +1010,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  12816 strings out of 493054
  187630 string characters out of 6140586
- 299844 words of memory out of 5000000
+ 299769 words of memory out of 5000000
  16131 multiletter control sequences out of 15000+600000
  80240 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1020,7 +1020,7 @@ mf-dist/fonts/type1/google/roboto/RobotoCondensed-Bold.pfb></usr/share/texmf-di
 st/fonts/type1/google/roboto/RobotoCondensed-Light.pfb></usr/share/texmf-dist/f
 onts/type1/google/roboto/RobotoCondensed-LightItalic.pfb></usr/share/texmf-dist
 /fonts/type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (1 page, 88943 bytes).
+Output written on main.pdf (1 page, 88812 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
