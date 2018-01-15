@@ -23,12 +23,14 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 % \usepackage[polish]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[sfdefault,light,condensed]{roboto}
+% \usepackage[default]{sourcesanspro}
+% \usepackage[default,osfigures,scale=0.95]{opensans}
 
 
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -47,12 +49,14 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vit\ae}
-\address{ul. Głowackiego 16}{27-200 Starachowice, Poland}
-\mobile{+48 505 972 332}
+\address{Ringertoften 12, 1 tv}{2400 København NV, Denmark}
+\mobile{+45 91805673}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
 \email{jan.szwagierczak@gmail.com}
-\homepage{github.com/machaerus}{github.com/machaerus} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\homepage{github.com/machaerus}{github.com/machaerus}
+% \homepage{linkedin.com/jan.szwagierczak}{linkedin.com/jan.szwagierczak}
+ % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
 % \photo[50pt][0.3pt]{jan} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
@@ -87,15 +91,19 @@
 
 \section{Experience}
 
-\cventry{2014--2016}{Several university projects}{Jagiellonian University}{including: Google Cardboard augmented vision application, affective computing project, artificial moral agent simulation}{}{}
+\cventry{2017--...}{CTO}{Augmento, Copenhagen}{Data science. Managing a multinational technical team of experts, freelancers and interns. Tech projects planning and management}{}{}
 
-\cventry{2012}{Web designer}{Eurohost Interactive Agency, Cracow}{summer internship}{}{}
+\cventry{2016--2017}{Data scientist}{Augmento, Copenhagen}{User-generated text data collection and analysis, natural language processing, building predictive models, data viz, managing AWS services}{}{}
 
-\cventry{2011--...}{Designer, developer and webmaster}{JES - Jakość Energia Starachowice Association (local NGO)}{creating websites and promotional materials, web sites administration, etc}{}{}
+\cventry{2014--2018}{Several university projects}{Jagiellonian University, University of Copenhagen}{including: Google Cardboard augmented vision application, affective computing project, artificial moral agent simulation, eye-tracking cognitive science study}{}{}
 
-\cventry{2011--...}{Creating indie video games}{}{}{}{}
+% \cventry{2012}{Web designer}{Eurohost Interactive Agency, Cracow}{summer internship}{}{}
 
-\cventry{2007--...}{Freelance web designer and web developer}{}{creating web sites and web applications}{}{}
+\cventry{2011--2016}{Designer, developer and webmaster}{JES - Jakość Energia Starachowice Association (local NGO)}{Creating websites and promotional materials, web sites administration, etc}{}{}
+
+% \cventry{2011--...}{Creating indie video games}{}{}{}{}
+
+\cventry{2007--2016}{Freelance web designer and web developer}{}{Creating websites and web applications}{}{}
 
 %------------------------------------------------------------------------
 %	Achievements SECTION
@@ -103,15 +111,15 @@
 
 \section{Knowledge \& Skills}
 
-\cvitem{General}{\textbf{Java}, \textbf{Python}, \textbf{C/C++}, other languages. Basic knowledge of \textbf{computer science} and software engineering. Competent \textbf{Linux} user. Git. LaTeX.}
+\cvitem{General}{\textbf{Python}, \textbf{Java}, \textbf{C/C++}, other languages. Understanding of \textbf{computer science} problems and methods. Competent \textbf{Linux} user, basics of shell scripting and sysadmining. Git. LaTeX.}
 
-\cvitem{Web}{Long experience in building web sites with \textbf{HTML \& CSS}, Sass/Less, Bootstrap, \textbf{Wordpress}. Basics of \textbf{Javascript}, JQuery, AngularJS, PHP. \textbf{Web design}, experience with Adobe graphics suite, rudiments of UX. Web typography.}
+\cvitem{Web}{Long experience in building websites with \textbf{HTML \& CSS}, Sass/Less, \textbf{Wordpress}. Some knowledge of \textbf{Javascript}, JQuery, AngularJS. Skills in \textbf{data visualization} using matplotlib, D3.js, vector graphics. \textbf{Web design}, experience with Adobe CS, rudiments of UX. Web typography. \textbf{Extraordinarily good taste}.}
 
-\cvitem{Data}{Theoretical (intermediate level) knowledge of \textbf{statistics}, \textbf{machine learning}, neural networks, \textbf{data analysis}. \textbf{Python} libs including pandas, numpy, sklearn, matplotlib. \textbf{R}.}
+\cvitem{Data}{Theoretical \& practical knowledge of \textbf{statistics}, \textbf{machine learning}, neural networks, \textbf{data analysis}. \textbf{Python} libs including pandas, numpy, spacy, nltk, gensim, sklearn, tensorflow, matplotlib. \textbf{R}.}
 
-\cvitem{Other}{\textbf{Cognitive science}. Academic level knowledge of \textbf{mathematics} and formal logic. Basics of artificial intelligence methods and game development.}
+\cvitem{Other}{\textbf{Cognitive science}. Academic level knowledge of \textbf{mathematics} and \textbf{formal logic}. Basics of artificial intelligence methods and game development.}
 
-\cvitem{Languages}{\textbf{Polish} (native), \textbf{English} (fluent), German (basic). Planning to learn Danish soon.}
+\cvitem{Languages}{\textbf{Polish} (native), \textbf{English} (fluent), German (basic).}
 
 %------------------------------------------------------------------------
 %	INTERESTS SECTION
@@ -122,9 +130,10 @@
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
 \cvlistitem{Artificial Intelligence (learning, cognition); ML \& Data mining;}
-\cvlistitem{Philosophy (formal epistemology, logic, philosophy of language);}
-\cvlistitem{Classical literature; Typography; Music; Cats.}
+\cvlistitem{Philosophy (formal epistemology, logic, philosophy of science);}
+\cvlistitem{Classical literature; Typography; Music; Insects.}
 
 %------------------------------------------------------------------------
 
 \end{document}
+-><-
